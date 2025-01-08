@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: gotica;
+    src: url(../fontes/Por\ Siempre\ Gótica.ttf);
+}
+
+body {
+    
+    background: linear-gradient(90deg, #28a1af,#0085d4,#0853da);
+}
+
+h1 {
+    font-family: gotica;
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #28a1af;
+    padding: 30px;
+}
+
+#border {
+    border-radius: 10px;
+    border: 3px solid #fff;
+    width: 585px;
+    margin: auto; /*posição ao centro*/
+}
+
+#clock {
+    align-items: center;
+    justify-content: center;
+    display: center;
+    font-size: 10rem;
+    font-weight: 1000;
+    color: aqua;
+}
